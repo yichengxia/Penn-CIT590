@@ -1,0 +1,523 @@
+Sample Behavior 1:
+	- note: the first 20 lines printing out new balance information comes from deposit() function
+	and withdraw() function.
+	- covers situations when account doesn't exist
+	- covers RuntimeError: Amount greater than available balance
+
+
+New balance: 6685.99
+New balance: 4739.87
+New balance: 9.0
+New balance: 121.3
+New balance: 101.99
+New balance: 6777.32
+New balance: 0
+New balance: 396.5
+New balance: 679.94
+New balance: 0.0
+New balance: 6557.59
+New balance: 4716.89
+New balance: 4.14
+New balance: 114.31
+New balance: 12.49
+New balance: 6700.19
+New balance: 0
+New balance: 326.5
+New balance: 651.44
+New balance: 0.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+1
+Account number? 1
+{'first_name': 'Brandon', 'last_name': 'Krakowsky', 'balance': 6557.59}
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+1
+Account number? account
+None
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+2
+Account number? 10
+Amount? 1
+New balance: 1.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+2
+Account number? 11
+Amount? 100
+Sorry, that account doesn't exist.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+3
+Account number? 10
+Amount?  0.5
+New balance: 0.5
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+3
+Account number? 10
+Amount?  100
+Traceback (most recent call last):
+  File "/Users/mtzhang/Downloads/bank_accounts_solution.py", line 359, in <module>
+    main()
+  File "/Users/mtzhang/Downloads/bank_accounts_solution.py", line 321, in main
+    withdraw(bank_accounts, account_number, amount)
+  File "/Users/mtzhang/Downloads/bank_accounts_solution.py", line 134, in withdraw
+    raise RuntimeError('Amount greater than available balance')
+RuntimeError: Amount greater than available balance
+>>> 
+
+
+Sample Behavior 2:
+	- make purchases
+	- note: all the purchases should contain additional 6% tax
+
+New balance: 6685.99
+New balance: 4739.87
+New balance: 9.0
+New balance: 121.3
+New balance: 101.99
+New balance: 6777.32
+New balance: 0
+New balance: 396.5
+New balance: 679.94
+New balance: 0.0
+New balance: 6557.59
+New balance: 4716.89
+New balance: 4.14
+New balance: 114.31
+New balance: 12.49
+New balance: 6700.19
+New balance: 0
+New balance: 326.5
+New balance: 651.44
+New balance: 0.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 1,2,3
+New balance: 6551.23
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 1, 2, 3
+New balance: 6544.87
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 1, 2,       10
+New balance: 6531.09
+	
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 100
+New balance: 6425.09
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+0
+Goodbye!
+>>> 
+
+
+Sample Behavior 3:
+	- sorting
+	- note: account_numbers in the dictionary are stored in the format of strings
+	- when sorting by account_number, we want to sort by value, not alphabetic
+	  (see behaviors below)
+
+New balance: 6685.99
+New balance: 4739.87
+New balance: 9.0
+New balance: 121.3
+New balance: 101.99
+New balance: 6777.32
+New balance: 0
+New balance: 396.5
+New balance: 679.94
+New balance: 0.0
+New balance: 6557.59
+New balance: 4716.89
+New balance: 4.14
+New balance: 114.31
+New balance: 12.49
+New balance: 6700.19
+New balance: 0
+New balance: 326.5
+New balance: 651.44
+New balance: 0.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+5
+Sort type ('account_number', 'first_name', 'last_name', or 'balance')? balance
+Sort type ('asc' or 'desc')? asc
+[('7', {'first_name': 'Huize', 'last_name': 'Huang', 'balance': 0}), ('10', {'first_name': 'Tianshi', 'last_name': 'Wang', 'balance': 0.0}), ('3', {'first_name': 'Dingyi', 'last_name': 'Shen', 'balance': 4.14}), ('5', {'first_name': 'Chuanrui', 'last_name': 'Zhu', 'balance': 12.49}), ('4', {'first_name': 'Zhe', 'last_name': 'Cai', 'balance': 114.31}), ('8', {'first_name': 'Paranya', 'last_name': 'Jareonvongrayab', 'balance': 326.5}), ('9', {'first_name': 'Ruijie', 'last_name': 'Cao', 'balance': 651.44}), ('2', {'first_name': 'Chenyun', 'last_name': 'Wei', 'balance': 4716.89}), ('1', {'first_name': 'Brandon', 'last_name': 'Krakowsky', 'balance': 6557.59}), ('6', {'first_name': 'Karishma', 'last_name': 'Jain', 'balance': 6700.19})]
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+5
+Sort type ('account_number', 'first_name', 'last_name', or 'balance')? account_number
+Sort type ('asc' or 'desc')? asc
+[('1', {'first_name': 'Brandon', 'last_name': 'Krakowsky', 'balance': 6557.59}), ('2', {'first_name': 'Chenyun', 'last_name': 'Wei', 'balance': 4716.89}), ('3', {'first_name': 'Dingyi', 'last_name': 'Shen', 'balance': 4.14}), ('4', {'first_name': 'Zhe', 'last_name': 'Cai', 'balance': 114.31}), ('5', {'first_name': 'Chuanrui', 'last_name': 'Zhu', 'balance': 12.49}), ('6', {'first_name': 'Karishma', 'last_name': 'Jain', 'balance': 6700.19}), ('7', {'first_name': 'Huize', 'last_name': 'Huang', 'balance': 0}), ('8', {'first_name': 'Paranya', 'last_name': 'Jareonvongrayab', 'balance': 326.5}), ('9', {'first_name': 'Ruijie', 'last_name': 'Cao', 'balance': 651.44}), ('10', {'first_name': 'Tianshi', 'last_name': 'Wang', 'balance': 0.0})]
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+5
+Sort type ('account_number', 'first_name', 'last_name', or 'balance')? account_number
+Sort type ('asc' or 'desc')? desc
+[('10', {'first_name': 'Tianshi', 'last_name': 'Wang', 'balance': 0.0}), ('9', {'first_name': 'Ruijie', 'last_name': 'Cao', 'balance': 651.44}), ('8', {'first_name': 'Paranya', 'last_name': 'Jareonvongrayab', 'balance': 326.5}), ('7', {'first_name': 'Huize', 'last_name': 'Huang', 'balance': 0}), ('6', {'first_name': 'Karishma', 'last_name': 'Jain', 'balance': 6700.19}), ('5', {'first_name': 'Chuanrui', 'last_name': 'Zhu', 'balance': 12.49}), ('4', {'first_name': 'Zhe', 'last_name': 'Cai', 'balance': 114.31}), ('3', {'first_name': 'Dingyi', 'last_name': 'Shen', 'balance': 4.14}), ('2', {'first_name': 'Chenyun', 'last_name': 'Wei', 'balance': 4716.89}), ('1', {'first_name': 'Brandon', 'last_name': 'Krakowsky', 'balance': 6557.59})]
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+5
+Sort type ('account_number', 'first_name', 'last_name', or 'balance')? last_name
+Sort type ('asc' or 'desc')? anything
+[('5', {'first_name': 'Chuanrui', 'last_name': 'Zhu', 'balance': 12.49}), ('2', {'first_name': 'Chenyun', 'last_name': 'Wei', 'balance': 4716.89}), ('10', {'first_name': 'Tianshi', 'last_name': 'Wang', 'balance': 0.0}), ('3', {'first_name': 'Dingyi', 'last_name': 'Shen', 'balance': 4.14}), ('1', {'first_name': 'Brandon', 'last_name': 'Krakowsky', 'balance': 6557.59}), ('8', {'first_name': 'Paranya', 'last_name': 'Jareonvongrayab', 'balance': 326.5}), ('6', {'first_name': 'Karishma', 'last_name': 'Jain', 'balance': 6700.19}), ('7', {'first_name': 'Huize', 'last_name': 'Huang', 'balance': 0}), ('9', {'first_name': 'Ruijie', 'last_name': 'Cao', 'balance': 651.44}), ('4', {'first_name': 'Zhe', 'last_name': 'Cai', 'balance': 114.31})]
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+5
+Sort type ('account_number', 'first_name', 'last_name', or 'balance')? anything
+Sort type ('asc' or 'desc')? asc
+Unexpected inputs, please input 'account_number', 'first_name', 'last_name', or 'balance'
+None
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+0
+Goodbye!
+>>> 
+
+
+Sample Behavior 4:
+	- export statements
+
+New balance: 6685.99
+New balance: 4739.87
+New balance: 9.0
+New balance: 121.3
+New balance: 101.99
+New balance: 6777.32
+New balance: 0
+New balance: 396.5
+New balance: 679.94
+New balance: 0.0
+New balance: 6557.59
+New balance: 4716.89
+New balance: 4.14
+New balance: 114.31
+New balance: 12.49
+New balance: 6700.19
+New balance: 0
+New balance: 326.5
+New balance: 651.44
+New balance: 0.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+6
+Account number? 1
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+6
+Account number? 11
+Sorry, that account doesn't exist.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+6
+Account number? 2
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+0
+Goodbye!
+>>> 
+
+
+- After exporting statements, I have two files "1.txt" and "2.txt" under the current directory.
+
+Contents of "1.txt":
+
+First Name: Brandon
+Last Name: Krakowsky
+Balance: 6557.59
+
+Contents of "2.txt":
+
+First Name: Chenyun
+Last Name: Wei
+Balance: 4716.89
+
+
+Sample Behavior 5:
+	- invalid (non-numeric) inputs
+
+
+New balance: 6685.99
+New balance: 4739.87
+New balance: 9.0
+New balance: 121.3
+New balance: 101.99
+New balance: 6777.32
+New balance: 0
+New balance: 396.5
+New balance: 679.94
+New balance: 0.0
+New balance: 6557.59
+New balance: 4716.89
+New balance: 4.14
+New balance: 114.31
+New balance: 12.49
+New balance: 6700.19
+New balance: 0
+New balance: 326.5
+New balance: 651.44
+New balance: 0.0
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+2
+Account number? 1
+Amount? strings_here
+Invalid deposit amount.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 1, strings, 2
+Invalid purchase amounts.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+4
+Account number? 1
+Amounts (as comma separated list)? 1,
+Invalid purchase amounts.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+3
+Account number? 1
+Amount?  1
+New balance: 6556.59
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+3
+Account number? 1
+Amount?  three
+Invalid withdrawal amount.
+
+Welcome to the bank!  What would you like to do?
+1: Get account info
+2: Make a deposit
+3: Make a withdrawal
+4: Make a purchase
+5: Sort accounts
+6: Export a statement
+0: Leave the bank
+
+0
+Goodbye!
+>>> 

@@ -1,0 +1,50 @@
+CIT590; Programming Languages and Techniques; Brandon L Krakowsky; MW; 16:30; 18:00; 110
+CIT591; Introduction to Software Development; Arvind Bhusnurmath; MW; 12:00; 13:30; 120
+CIT592; Mathematical Foundations of Computer Science; Clayton Greenberg; TR; 10:00; 11:00; 72
+CIT593; Introduction to Computer Systems; Thomas Joseph Farmer; MWF; 11:00; 12:00; 72
+CIT594; Data Structures and Sofware Design; Eric Noel Fouh Mbindi; TR; 10:30; 12:00; 72
+CIT595; Computer Systems Programming; Insup Lee; TR; 15:00; 16:30; 72
+CIT596; Algorithms and Computation; Arvind Bhusnurmath; MW; 10:30; 12:00; 120
+CIS105; Computational Data Exploration; Clayton Greenberg; MWF; 10:00; 11:00; 60
+CIS110; Introduction to Computer Programming; Harry Smith; MWF; 9:00; 10:00; 375
+CIS120; Programming Languages and Techniques; Stephanie Weirich; MWF; 11:00; 12:00; 300
+CIS160; Mathematical Foundations of Computer Science; Val Breazu Tannen; TR; 13:30; 14:30; 100
+CIS121; Programming Languages and Techniques II; Rajiv Gandhi; TR; 9:00; 10:30; 125
+CIS191; Linux/Unix Skills; Swapneel Sheth; F; 13:30; 15:00; 15
+CIS192; Python Programming; Swapneel Sheth; MW; 10:30; 12:00; 30
+CIS195; Mobile App Development; Swapneel Sheth; MW; 13:00; 14:30; 45
+CIS196; Ruby on Rails Web Development; Swapneel Sheth; TR; 15:00; 16:30; 15
+CIS197; Javascript; Swapneel Sheth; TR; 10:30; 12:00; 25
+CIS198; Rust Programming; Swapneel Sheth; TR; 12:00; 13:30; 15
+CIS240; Introduction to Computer Systems; Thomas Joseph Farmer; TR; 10:30; 12:00; 200
+CIS262; Automata Computability and Complexity; Anindya De; TR; 9:00; 10:30; 150
+CIS320; Introduction to Algorithms; Sanjeev Khanna; MW; 15:00; 16:30; 200
+CIS398; Quantum Computer and Information Science; Max Mintz; TR; 16:00; 18:00; 15
+CIS419; Applied Machine Learning; Dinesh Jayaraman; TR; 13:30; 15:00; 120
+CIS450; Database and Information Systems; Mayur H Naik; MW; 10:30; 12:00; 200
+CIS455; Internet and Web Systems; Zachary Ives; MW; 15:00; 16:30; 100
+CIS460; Interactive Computer Graphics; Adam D Mally; MW; 12:00; 13:30; 80
+CIS461; Advanced Rendering; Adam D Mally; MW; 13:30; 15:00; 50
+CIS471; Computer Organization and Design; Joseph L Devietti; TR; 12:00; 13:30; 170
+CIS511; Theory of Computation; Jean Henri Gallier; MW; 15:00; 16:30; 125
+CIS515; Fundamentals of Linear Algebra and Optimization; Jocelyn Alys Quaintance; TR; 13:30; 15:00; 500
+CIS519; Applied Machine Learning; Dinesh Jayaraman; TR; 13:30; 15:00; 120
+CIS520; Machine Learning; Shivani Agarwal; TR; 13:00; 15:00; 125
+CIS522; Deep Learning for Data Science; Lyle H Ungar; TR; 15:00; 16:30; 125
+CIS530; Computational Linguistics; Mark Yatskar; TR; 16:30; 18:00; 75
+CIS535; Introduction to Bioinformatics; Ophir Shalem; MWF; 10:00; 11:00; 43
+CIS545; Big Data Analytics; Susan B Davidson; TR; 10:30; 12:00; 300
+CIS548; Operating Systems Design and Implementation; Boon Thau Loo; TR; 13:30; 15:00; 200
+CIS550; Database and Information Systems; Mayur H Naik; MW; 10:30; 12:00; 200
+CIS553; Networked Systems; Vincent F Liu; MW; 16:30; 18:00; 150
+CIS555; Internet and Web Systems; Zachary Ives; MW; 12:00; 13:30; 100
+CIS557; Programming for the Web; Eric Noel Fouh Mbindi; MW; 13:30; 15:00; 40
+CIS559; Programming and Problem Solving; Swapneel Sheth; MW; 15:00; 16:30; 25
+CIS560; Interactive Computer Graphics; Adam D Mally; MW; 12:00; 13:30; 80
+CIS561; Advanced Rendering; Adam D Mally; MW; 13:30; 15:00; 50
+CIS568; Game Design Practicum; Stephen Lane; MW; 15:00; 16:30; 25
+CIS571; Computer Organization and Design; Joseph L Devietti; TR; 12:00; 13:30; 170
+CIS580; Machine Perception; Konstantinos Daniilidis; MW; 12:00; 13:30; 100
+CIS620; Advanced Topics in Machine Learning; Dan Roth; M; 15:00; 18:00; 40
+CIS660; Advanced Topics in Computer Graphics and Animation; Stephen Lane; MW; 10:30; 12:00; 32
+CIS670; Advanced Topics in Programming Languages; Stephan A. Zdancewic; MW; 13:00; 15:00; 32

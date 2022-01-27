@@ -1,0 +1,341 @@
+Sample behavior 1: 
+    - computer wins
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+3
+Computers' turn
+Computer discarded 'z' from MAIN PILE
+computer's current hand is 
+ ['a', 'k', 'g']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'o', 's']
+Pick 'z' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'b'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+y
+Input the index of the letter to be replaced, e.g. '1':
+0
+You replaced 't' with 'b'
+Your word list is: ['b', 'o', 's']
+-----------------------------------------------
+Your word is bos
+You win!
+>>>
+
+Sample behavior 2:
+    - when input an index which is greater than the valid range
+    - when input an index which out of list range
+    - input with leading/trailing spaces
+    - computer wins
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+1
+The number should be between 3 - 10.
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+4
+Computers' turn
+Computer discarded 'e' from MAIN PILE
+computer's current hand is 
+ ['k', 'o', 'o', 'm']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'i', 'p', 'o']
+Pick 'e' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+   D
+Input the index of the letter to be replaced, e.g. '1':
+100
+Index out of range
+Input the index of the letter to be replaced, e.g. '1':
+1
+You replaced 'i' with 'e'
+Your word list is: ['t', 'e', 'p', 'o']
+-----------------------------------------------
+Computers' turn
+Computer took 'b' from MAIN PILE
+computer's current hand is 
+ ['b', 'o', 'o', 'm']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'e', 'p', 'o']
+Pick 'k' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'w'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+yes
+Input the index of the letter to be replaced, e.g. '1':
+3
+You replaced 'o' with 'w'
+Your word list is: ['t', 'e', 'p', 'w']
+-----------------------------------------------
+Computer's word is boom
+Computer wins!
+>>> 
+
+
+Sample behavior 3:
+    - invalid input when asking to input 'D' or 'M'
+    - invalid string response when aksing to input a number
+    - user wins
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+5
+Computers' turn
+Computer discarded 's' from MAIN PILE
+computer's current hand is 
+ ['e', 'u', 'e', 'g', 'r']
+-----------------------------------------------
+Your turn
+Your word list is:
+['d', 'm', 'n', 'u', 'g']
+Pick 's' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'p'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+no
+You discarded 'p' from MAIL PILE
+Your word list is: ['d', 'm', 'n', 'u', 'g']
+-----------------------------------------------
+Computers' turn
+Computer discarded 'b' from MAIN PILE
+computer's current hand is 
+ ['e', 'u', 'e', 'g', 'r']
+-----------------------------------------------
+Your turn
+Your word list is:
+['d', 'm', 'n', 'u', 'g']
+Pick 'b' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'q'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+N
+You discarded 'q' from MAIL PILE
+Your word list is: ['d', 'm', 'n', 'u', 'g']
+-----------------------------------------------
+Computers' turn
+Computer took 'q' from DISCARD PILE
+computer's current hand is 
+ ['q', 'u', 'e', 'g', 'r']
+-----------------------------------------------
+Your turn
+Your word list is:
+['d', 'm', 'n', 'u', 'g']
+Pick 'e' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'm'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+yes
+Input the index of the letter to be replaced, e.g. '1':
+1
+You replaced 'm' with 'm'
+Your word list is: ['d', 'm', 'n', 'u', 'g']
+-----------------------------------------------
+Computers' turn
+Computer took 'm' from DISCARD PILE
+computer's current hand is 
+ ['q', 'm', 'e', 'g', 'r']
+-----------------------------------------------
+Your turn
+Your word list is:
+['d', 'm', 'n', 'u', 'g']
+Pick 'u' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+t
+Please enter a valid response
+Your word list is:
+['d', 'm', 'n', 'u', 'g']
+Pick 'u' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+d
+Input the index of the letter to be replaced, e.g. '1':
+one
+Please enter an valid integer.
+Input the index of the letter to be replaced, e.g. '1':
+0
+You replaced 'd' with 'u'
+Your word list is: ['u', 'm', 'n', 'u', 'g']
+-----------------------------------------------
+Computers' turn
+Computer took 'i' from MAIN PILE
+computer's current hand is 
+ ['q', 'm', 'i', 'g', 'r']
+-----------------------------------------------
+Your turn
+Your word list is:
+['u', 'm', 'n', 'u', 'g']
+Pick 'e' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+...... (skip the details here to show you the final result)
+Your word is apple
+You win!
+>>>
+
+Sample behavior 4:
+    - there is a tie
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+10
+Computers' turn
+Computer took 'l' from DISCARD PILE
+computer's current hand is 
+ ['n', 'b', 'w', 'l', 'o', 'i', 't', 'q', 'n', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'j', 'v', 'l', 'b', 'z', 'p', 'p', 'm', 'e']
+Pick 'w' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+D
+Input the index of the letter to be replaced, e.g. '1':
+5
+You replaced 'z' with 'w'
+Your word list is: ['t', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+-----------------------------------------------
+Computers' turn
+Computer took 'z' from DISCARD PILE
+computer's current hand is 
+ ['n', 'b', 'w', 'l', 'o', 'i', 'z', 'q', 'n', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+Pick 't' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+M
+The letter from MAIN PILE is 'w'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+YES
+Input the index of the letter to be replaced, e.g. '1':
+0
+You replaced 't' with 'w'
+Your word list is: ['w', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+-----------------------------------------------
+Computers' turn
+Computer took 't' from DISCARD PILE
+computer's current hand is 
+ ['n', 'b', 'w', 'l', 'o', 'i', 't', 'q', 'n', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['w', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+Pick 'z' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+M
+The letter from MAIN PILE is 'b'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+NO
+You discarded 'b' from MAIL PILE
+Your word list is: ['w', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+-----------------------------------------------
+Computers' turn
+Computer took 'b' from DISCARD PILE
+computer's current hand is 
+ ['n', 'b', 'w', 'b', 'o', 'i', 't', 'q', 'n', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['w', 'j', 'v', 'l', 'b', 'w', 'p', 'p', 'm', 'e']
+Pick 'l' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+...... (skip the details here and show you the behavior of game result)
+Tie!
+Your word is abandoners
+Computer's word is poussetted
+>>>
+
+Sample behavior 5:
+    - when main_pile is empty
+
+Welcome to the game!
+Enter a number between 3 - 10 to be length of the word you are going to guess:
+4
+Computers' turn
+Computer took 'i' from DISCARD PILE
+computer's current hand is 
+ ['w', 'd', 'i', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['e', 'n', 't', 'f']
+Pick 'h' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 't'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+yes
+Input the index of the letter to be replaced, e.g. '1':
+0
+You replaced 'e' with 't'
+Your word list is: ['t', 'n', 't', 'f']
+-----------------------------------------------
+Computers' turn
+Computer took 'e' from DISCARD PILE
+computer's current hand is 
+ ['e', 'd', 'i', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'n', 't', 'f']
+Pick 'w' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+m
+The letter from MAIN PILE is 'b'
+Do you want to accept this letter? Type 'y/yes' to accept, 'n/no' to discard.
+no
+You discarded 'b' from MAIL PILE
+Your word list is: ['t', 'n', 't', 'f']
+-----------------------------------------------
+Computers' turn
+Computer discarded 'q' from MAIN PILE
+computer's current hand is 
+ ['e', 'd', 'i', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'n', 't', 'f']
+Pick 'q' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+d
+Input the index of the letter to be replaced, e.g. '1':
+2
+You replaced 't' with 'q'
+Your word list is: ['t', 'n', 'q', 'f']
+-----------------------------------------------
+Computers' turn
+Computer discarded 'p' from MAIN PILE
+computer's current hand is 
+ ['e', 'd', 'i', 'z']
+-----------------------------------------------
+Your turn
+Your word list is:
+['t', 'n', 'q', 'f']
+Pick 'p' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+...... (skip the details here to show you the behavior when main_pile is empty)
+no bricks left in the main pile
+copying cards in discard pile to main pile...
+Computers' turn
+Computer took 'p' from DISCARD PILE
+computer's current hand is 
+ ['p', 'm', 'j', 'a']
+-----------------------------------------------
+Your turn
+Your word list is:
+['w', 'j', 'm', 'a']
+Pick 'q' from DISCARD PILE or reveal the letter from MAIN PILE
+Reply 'D' or 'M' to respond:
+......(until game ends)

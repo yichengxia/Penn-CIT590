@@ -1,0 +1,78 @@
+Sample Behavior 1:
+
+Welcome to the supermarket!  Here's what we have in stock:
+- Lottery tickets cost $2 each
+- Apples cost $0.99 each
+- Cans of beans cost $1.58 each
+- Sodas cost $1.23 each
+
+You have $5 available
+First, do you want to buy a $2 lottery ticket for a chance at winning $2-$10? (y/n) y
+Congrats! You won $5!
+
+You have $8 available
+Do you want to buy apple(s)? (y/n) y
+How many apple(s) do you want to buy?
+2
+The user wants to buy 2 apple(s). This will cost $1.98.
+The user has enough money. 2 apple(s) purchased.
+
+You have $6.02 available
+Do you want to buy can(s) of beans? (y/n) y
+How many can(s) of beans do you want to buy?
+two
+Numerical values only! No cans of beans selected.
+
+You have $6.02 available
+Do you want to buy soda(s)? (y/n) y
+How many soda(s) do you want to buy?
+3
+The user wants to buy 3 soda(s). This will cost $3.69.
+The user has enough money. 3 soda(s) purchased.
+
+Money left: $2.33
+Lottery ticket(s) purchased: 1
+Lottery winnings: $5
+Apple(s) purchased: 2
+Can(s) of beans purchased: 0
+Soda(s) purchased: 3
+Good bye!
+
+----------------------------------------------
+Sample Behavior 2:
+
+Welcome to the supermarket!  Here's what we have in stock:
+- Lottery tickets cost $2 each
+- Apples cost $0.99 each
+- Cans of beans cost $1.58 each
+- Sodas cost $1.23 each
+
+You have $5 available
+First, do you want to buy a $2 lottery ticket for a chance at winning $2-$10? (y/n) y
+Sorry! You did not win the lottery.
+
+You have $3 available
+Do you want to buy apple(s)? (y/n) y
+How many apple(s) do you want to buy?
+2
+The user wants to buy 2 apple(s). This will cost $1.98.
+The user has enough money. 2 apple(s) purchased.
+
+You have $1.02 available
+Do you want to buy can(s) of beans? (y/n) y
+How many can(s) of beans do you want to buy?
+1
+The user wants to buy 1 can(s) of beans. This will cost $1.58.
+Not enough money! No cans of beans purchased.
+
+You have $1.02 available
+Do you want to buy soda(s)? (y/n) n
+No sodas purchased.
+
+Money left: $1.02
+Lottery ticket(s) purchased: 1
+Lottery winnings: $0
+Apple(s) purchased: 2
+Can(s) of beans purchased: 0
+Soda(s) purchased: 0
+Good bye!

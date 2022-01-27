@@ -1,0 +1,249 @@
+Sample Behavior 1:
+
+Let's play Simple21!
+You'll play against the computer.
+Try to get as close to 21 as possible, without going over.
+What's your name?
+Brandon
+Brandon has 10 hidden point(s).
+Brandon has 4 visible point(s).
+Brandon has 14 total point(s).
+Computer has 4 visible point(s).
+Take another card? (y/n) y
+Brandon gets 5
+Brandon has 10 hidden point(s).
+Brandon has 9 visible point(s).
+Brandon has 19 total point(s).
+Computer gets 1
+Computer has 5 visible point(s).
+Take another card? (y/n) n
+Brandon passed!
+Computer gets 8
+Computer has 13 visible point(s).
+Computer passed!
+-- Game Over --
+Brandon has 19 in total.
+Computer has 20 in total.
+Computer wins by 1 point(s).
+Play again? (y/n) y
+Modify username? (y/n) y
+Update your name?
+Tianshi
+Tianshi has 10 hidden points.
+Tianshi has 10 visible points.
+Tianshi has 20 total points.
+Computer has 5 visible points.
+Take another card? (y/n) n
+Tianshi passed!
+Computer gets a 10
+Computer has 15 visible points.
+Computer passed!
+-- Game Over --
+Tianshi has 20 in total.
+Computer has 20 in total.
+Nobody wins. It's a tie!
+Play again? (y/n) n
+
+
+Sample Behavior 2:
+
+Let's play Simple21!
+You'll play against the computer.
+Try to get as close to 21 as possible, without going over.
+What's your name?
+Brandon
+Brandon has 4 hidden point(s).
+Brandon has 4 visible point(s).
+Brandon has 8 total point(s).
+Computer has 5 visible point(s).
+Take another card? (y/n) y
+Brandon gets 10
+Brandon has 4 hidden point(s).
+Brandon has 14 visible point(s).
+Brandon has 18 total point(s).
+Computer gets 4
+Computer has 9 visible point(s).
+Take another card? (y/n) n
+Brandon passed!
+Computer gets 10
+Computer has 19 visible point(s).
+Computer passed!
+-- Game Over --
+Brandon has 18 in total.
+Computer has 27 in total.
+Brandon wins by 9 point(s).
+Play again? (y/n) y
+Modify username? (y/n) n
+Brandon has 8 hidden point(s).
+Brandon has 4 visible point(s).
+Brandon has 12 total point(s).
+Computer has 4 visible point(s).
+Take another card? (y/n) y
+Brandon gets 5
+Brandon has 8 hidden point(s).
+Brandon has 9 visible point(s).
+Brandon has 17 total point(s).
+Computer gets 1
+Computer has 5 visible point(s).
+Take another card? (y/n) n
+Brandon passed!
+Computer gets 2
+Computer has 7 visible point(s).
+Computer gets 6
+Computer has 13 visible point(s).
+Computer passed!
+-- Game Over --
+Brandon has 17 in total.
+Computer has 23 in total.
+Brandon wins by 6 point(s).
+Play again? (y/n) y
+Modify username? (y/n) y
+Update your name?
+Jeffrey
+Jeffrey has 7 hidden point(s).
+Jeffrey has 5 visible point(s).
+Jeffrey has 12 total point(s).
+Computer has 6 visible point(s).
+Take another card? (y/n) y
+Jeffrey gets 10
+Jeffrey has 7 hidden point(s).
+Jeffrey has 15 visible point(s).
+Jeffrey has 22 total point(s).
+Computer gets 3
+Computer has 9 visible point(s).
+Take another card? (y/n) n
+Jeffrey passed!
+Computer passed!
+-- Game Over --
+Jeffrey has 22 in total.
+Computer has 19 in total.
+Computer wins by 3 point(s).
+Play again? (y/n) y
+Modify username? (y/n) n
+Jeffrey has 4 hidden point(s).
+Jeffrey has 4 visible point(s).
+Jeffrey has 8 total point(s).
+Computer has 5 visible point(s).
+Take another card? (y/n) y
+Jeffrey gets 10
+Jeffrey has 4 hidden point(s).
+Jeffrey has 14 visible point(s).
+Jeffrey has 18 total point(s).
+Computer gets 10
+Computer has 15 visible point(s).
+Take another card? (y/n) n
+Jeffrey passed!
+Computer gets 3
+Computer has 18 visible point(s).
+Computer passed!
+-- Game Over --
+Jeffrey has 18 in total.
+Computer has 19 in total.
+Computer wins by 1 point(s).
+Play again? (y/n) n
+
+
+Sample Behavior 3:
+
+Let's play Simple21!
+You'll play against the computer.
+Try to get as close to 21 as possible, without going over.
+What's your name?
+Brandon
+Brandon has 2 hidden point(s).
+Brandon has 6 visible point(s).
+Brandon has 8 total point(s).
+Computer has 6 visible point(s).
+Take another card? (y/n) yes
+Brandon gets 9
+Brandon has 2 hidden point(s).
+Brandon has 15 visible point(s).
+Brandon has 17 total point(s).
+Computer gets 10
+Computer has 16 visible point(s).
+Take another card? (y/n) NO
+Brandon passed!
+Computer passed!
+-- Game Over --
+Brandon has 17 in total.
+Computer has 18 in total.
+Computer wins by 1 point(s).
+Play again? (y/n)     yes
+Modify username? (y/n) YES
+Update your name?
+Bill
+Bill has 5 hidden point(s).
+Bill has 3 visible point(s).
+Bill has 8 total point(s).
+Computer has 10 visible point(s).
+Take another card? (y/n) YYYYYYes
+Bill gets 9
+Bill has 5 hidden point(s).
+Bill has 12 visible point(s).
+Bill has 17 total point(s).
+Computer gets 8
+Computer has 18 visible point(s).
+Take another card? (y/n) n
+Bill passed!
+Computer passed!
+-- Game Over --
+Bill has 17 in total.
+Computer has 19 in total.
+Computer wins by 2 point(s).
+Play again? (y/n)     YEEEEEEEs
+Modify username? (y/n)      NO
+Bill has 5 hidden point(s).
+Bill has 3 visible point(s).
+Bill has 8 total point(s).
+Computer has 5 visible point(s).
+Take another card? (y/n) Y
+Bill gets 9
+Bill has 5 hidden point(s).
+Bill has 12 visible point(s).
+Bill has 17 total point(s).
+Computer gets 8
+Computer has 13 visible point(s).
+Take another card? (y/n) NO!
+Bill passed!
+Computer gets 5
+Computer has 18 visible point(s).
+Computer passed!
+-- Game Over --
+Bill has 17 in total.
+Computer has 20 in total.
+Computer wins by 3 point(s).
+Play again? (y/n) NO SIR!
+
+
+Sample Behavior 4:
+
+Let's play Simple21!
+You'll play against the computer.
+Try to get as close to 21 as possible, without going over.
+What's your name?
+Mengting
+Mengting has 10 hidden point(s).
+Mengting has 9 visible point(s).
+Mengting has 19 total point(s).
+Computer has 6 visible point(s).
+Take another card? (y/n) y
+Mengting gets 10
+Mengting has 10 hidden point(s).
+Mengting has 19 visible point(s).
+Mengting has 29 total point(s).
+Computer gets 10
+Computer has 16 visible point(s).
+Take another card? (y/n) y
+Mengting gets 1
+Mengting has 10 hidden point(s).
+Mengting has 20 visible point(s).
+Mengting has 30 total point(s).
+Computer passed!
+Take another card? (y/n) n
+Mengting passed!
+-- Game Over --
+Mengting has 30 in total.
+Computer has 24 in total.
+Nobody wins.
+Play again? (y/n) n
+
