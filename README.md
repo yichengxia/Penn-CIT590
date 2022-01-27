@@ -1,6 +1,8 @@
 # Penn-CIT590
 This is my CIT590 (Programming Languages and Techniques) homework projects in 2021 fall.
 
+HW2-HW6 are written in Python. HW8-HW11 are written in Java.
+
 ## HW2: Supermarket
 This is a supermarket shopping "game".
 
