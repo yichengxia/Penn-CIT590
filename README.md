@@ -9,10 +9,7 @@ This is a supermarket shopping "game".
 ## HW3: Simple 21
 This is a simplified version of a common card game, "21". Blackjack is a better-known variant.
 
-## HW4: Pick 
-
-
-r Letters
+## HW4: Pick Your Letters
 This is the game *Pick Your Letters*, which is a game that involves re-arranging a group of cards in order to make up a word.
 
 ## HW5: Banking System
