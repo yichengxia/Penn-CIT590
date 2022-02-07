@@ -17,15 +17,6 @@ This involves implementing a bank program that manages bank accounts and
 allows for deposits, withdrawals, purchases, sorting bank accounts based on different criteria,
 and exporting bank statements.
 
-## HW6: Analysis of Movie & Ratings Data
-We analyze data about movies and ratings from the IMDB website and
-get to use functions from the pandasmodule for loading, inspecting and querying the data.
-Then we perform some operations on joining the data, slicing rows and querying data
-using boolean indexing. Next, we use functions in the numpylibrary, and perform
-analysis on summarizing data, creating pivot tables and applying aggregate functions to have a
-deeper understanding of the data analysis. Finally, we draw two figures based on the
-matplotliblibrary.
-
 ## HW8: Pig
 Pig is a very simple game. Two players take turns; on each turn, a player rolls a six-sided die 
 ("die" is the singular of "dice") as many times as she wishes, or until she rolls a 6. Each number 
