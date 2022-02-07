@@ -1,5 +1,5 @@
 # Penn-CIT590
-This is my CIT590 (Programming Languages and Techniques) homework projects in 2021 fall.
+Here are my CIT590 (Programming Languages and Techniques) coursework projects in 2021 fall.
 
 HW2-HW5 are written in Python. HW8-HW11 are written in Java.
 
